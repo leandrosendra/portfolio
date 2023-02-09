@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.title {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: #444649;
+}
+
+.underline {
+    height: 4px;
+    width: 70px;
+    background-color: #444649;
+    margin-top: 10px;
+}
+
+.dosdagas {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.imgcontainer {
+    height: 340px;
+    width: 300px;
+    background-color: #282b38;
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 20px;
+}
+
+.imgdesc {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.imC {
+    margin-top: 30px;
+    display: flex;
+}
+
+.icons {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons2 {
+    width: 35%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a {
+    display: flex;
+    justify-content: space-around;
+}
